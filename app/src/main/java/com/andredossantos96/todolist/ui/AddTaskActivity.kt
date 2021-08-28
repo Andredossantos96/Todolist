@@ -66,6 +66,7 @@ class AddTaskActivity : AppCompatActivity() {
                 hour = binding.tilHour.text
             )
             TaskDataSource.insertTask(task)
+            finish()
         }
     }
 }
